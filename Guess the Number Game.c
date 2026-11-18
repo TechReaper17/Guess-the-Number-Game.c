@@ -22,14 +22,4 @@ while (attempts < 6) {
 }   
     attempts++;
 }
-
-if (attempts == 6 && Guess != Secret) {
-    printf("The number was %d\n", Secret);
-}
-    if (Guess == Secret) {
-    printf("Used %d chances\n", attempts);
-    }
-else {
-    printf("Used %d chances. The number was %d\n", attempts, Secret);
-}
 }
